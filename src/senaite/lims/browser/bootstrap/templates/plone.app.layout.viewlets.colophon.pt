@@ -8,11 +8,10 @@
         <div class="text-center text-muted">
           <ul class="list-inline">
             <li i18n:translate="label_powered_by">
-              This site was built using the Plone Open Source CMS/WCM
-            </li>
-            <li>
+              Built using the Plone Open Source CMS - Powered by
+             
               <a href="http://plone.org"
-                 title="This site was built using the Plone Open Source CMS/WCM."
+                 title="Plone and Python."
                  i18n:attributes="title title_built_with_plone;"
                  i18n:translate="label_powered_by_plone">
                 Plone &amp; Python</a>
