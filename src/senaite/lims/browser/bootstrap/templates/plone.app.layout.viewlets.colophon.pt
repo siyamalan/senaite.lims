@@ -8,7 +8,7 @@
         <div class="text-center text-muted">
           <ul class="list-inline">
             <li i18n:translate="label_powered_by">
-              Built using the Plone Open Source CMS - Powered by
+             Powered by
              
               <a href="http://plone.org"
                  title="Plone and Python."
