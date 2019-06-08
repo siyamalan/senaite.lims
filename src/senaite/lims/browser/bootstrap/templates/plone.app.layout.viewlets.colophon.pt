@@ -8,13 +8,7 @@
         <div class="text-center text-muted">
           <ul class="list-inline">
             <li i18n:translate="label_powered_by">
-             Powered by
-             
-              <a href="http://plone.org"
-                 title="Plone and Python."
-                 i18n:attributes="title title_built_with_plone;"
-                 i18n:translate="label_powered_by_plone">
-                Plone &amp; Python</a>
+             LIMS Test #02
             </li>
           </ul>
         </div>
