@@ -41,7 +41,7 @@
                        tal:attributes="src string:${site/absolute_url}/++resource++senaite-icon.png"/>
                   <a href="#"
                      tal:attributes="href site/absolute_url"
-                     title="Go to your SENAITE installation"
+                     title="Go to your Plone installation"
                      i18n:attributes="title;">
                     <span tal:replace="site/title"/> (<span tal:replace="site/id"/>)
                   </a>
