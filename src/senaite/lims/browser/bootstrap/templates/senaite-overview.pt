@@ -10,7 +10,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title i18n:translate="">Welcome to SENAITE LIMS</title>
+  <title i18n:translate="">Current Installation</title>
   <link rel="stylesheet" type="text/css"
         tal:attributes="href string:${context/absolute_url}/++resource++bootstrap.min.css"
         href="bootstrap.min.css" />
@@ -24,11 +24,7 @@
       <div class="col-sm-6 col-sm-offset-3">
 
         <h1>
-          <!-- SENAITE LOGO -->
-          <img src="senaite-logo.png"
-               width="250"
-               tal:attributes="src string:${context/absolute_url}/++resource++senaite-logo.png" />
-          <small class="lead">Open Source LIMS Project</small>
+          
         </h1>
         <hr/>
 
@@ -36,7 +32,7 @@
         <tal:block tal:condition="sites">
           <div class="row">
             <div class="col-sm-12">
-              <p class="lead text-muted" i18n:translate="">Current SENAITE Installations</p>
+              <p class="lead text-muted" i18n:translate="">Current Plone Installations</p>
               <div class="list-group">
                 <div class="list-group-item" tal:repeat="site sites">
                   <img class="img"
@@ -96,16 +92,8 @@
         <div class="row">
           <div class="col-sm-12">
             <hr/>
-            <div i18n:translate="" class="lead">
-              Meet the community, browse the code and get support on
-            </div>
-            <ul class="list list-inline list-justified">
-              <li><a class="btn btn-default" href="https://www.senaite.com" title="Website" target="_blank">Website</a></li>
-              <li><a class="btn btn-default" href="https://community.senaite.com" title="SENAITE community" target="_blank">Community Site</a></li>
-              <li><a class="btn btn-default" href="https://gitter.im/senaite/Lobby" title="Gitter Chat" target="_blank">Gitter Chat</a></li>
-              <li><a class="btn btn-default" href="https://github.com/senaite" title="GitHub" target="_blank">GitHub</a></li>
-              <li><a class="btn btn-default" href="https://twitter.com/senaitelims" title="Twitter" target="_blank">Twitter</a></li>
-            </ul>
+             
+            
           </div>
         </div>
 
